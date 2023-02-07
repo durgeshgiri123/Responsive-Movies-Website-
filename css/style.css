@@ -250,3 +250,36 @@ movie-box-img{
     font-style: 18px !important;
     font-weight: 700;
 }
+/* Movie*/
+.movies .heading{
+    padding: 10px 14px;
+}
+.movies-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mainmax(247px, 1fr));
+    gap: 1.5rem;
+}
+.movies-content .movie-box:hover .movie-box-img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+next-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.next-btn{
+    background: var(--main-color);
+    padding: 12px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.next-btn:hover{
+    background: var(--hover-color);
+    transition: 0.3s all linear;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
