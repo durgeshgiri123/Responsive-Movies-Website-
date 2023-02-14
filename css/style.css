@@ -524,4 +524,46 @@ next-page{
     .watch-btn span{
         font-size: 0.9rem;
     }
+    .movie-title {
+        font-size: 1rem;
+        padding-right: 30px;
+    }
+    .play-container{
+        min-height: 440px;
+        margin-top: 4rem !important;
+    }
+    .play-movie{
+        bottom: 14rem;
+        right: 4rem;
+    }
+    .cast{
+        justify-content: center;
+    }
+}
+/* For Medium Devices / Tablet Etc */
+@media (max-width: 768px){
+    .nav{
+        padding: 11px 0;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
+    section{
+        padding: 2rem 0 ;
+    }
+    .home-img{
+        object-position: left;
+    }
+    .movie-type{
+        font-size: 0.875rem;
+        margin-top: 2px;
+    }
+    .tags span,
+    .about-movie p{
+        font-size: 0.875;
+    }
+    p{
+        font-size: 0.875rem;
+    }
+    
 }
