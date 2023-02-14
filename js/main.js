@@ -16,25 +16,25 @@ var swiper = new Swiper(".popular-content", {
   },
   breakpoints:{
     280:{
-        sliderPerView:1,  
+        slidesPerView:1,  
         spaceBetween: 10, 
     },
     320:{
-        sliderPerView:2,  
+        slidesPerView:2,  
         spaceBetween: 10, 
     },
-    510:{
-        sliderPerView:2,  
+    540:{
+        slidesPerView:2,  
         spaceBetween: 10, 
     },
     758:{
-        sliderPerView:3,  
+        slidesPerView:3,  
         spaceBetween: 15, 
     },
     900:{
-        sliderPerView:4,  
+        slidesPerView:4,  
         spaceBetween: 20, 
-    },
+    },     
 },
 });
 //Show Video
