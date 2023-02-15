@@ -565,5 +565,29 @@ next-page{
     p{
         font-size: 0.875rem;
     }
-    
+   .play-text h2,
+   .about-movie h2{
+    font-size: 1.3rem;
+   }
+.play-movie{
+    bottom: 10rem;
+    right: 2rem;
+}
+}
+@media (max-width: 768px){
+    .home{
+        min-height: 380px;
+    }
+   .heading{
+    padding: 2px 14px;
+   }
+   .heading-title{
+    font-size: 1rem;
+   }
+   .play-text{
+    padding: 20px;
+   }
+   .play-movie {
+    right: 2rem;
+}
 }
