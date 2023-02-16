@@ -332,7 +332,7 @@ next-page{
 }
 .play-text h2{
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 300;
 }
 .rating{
     display: flex;
@@ -590,4 +590,21 @@ next-page{
    .play-movie {
     right: 2rem;
 }
+}
+@media(max-width: 514px){
+    .home{
+        min-height: 380px;
+    }
+    .heading{
+        padding: 2px 14px;
+    }
+    .heading-title{
+        font-size: 1rem;
+    }
+    .play-text{
+        padding: 20px;
+    }
+    .play-movie{
+        bottom: 4rem;
+    }
 }
