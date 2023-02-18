@@ -608,3 +608,369 @@ next-page{
         bottom: 4rem;
     }
 }
+/* START OF FOOTER DECOR */
+footer .container-fluid .row .col h3 {
+    font-size: 0.9em;
+    text-align: center;
+
+}
+
+footer .container-fluid .row .col a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: gray;
+    line-height: 2.5em;
+}
+
+footer .container-fluid .row .col a:hover {
+    color: #FD6E00;
+    font-weight: 700;
+}
+
+footer .container-fluid .row .col .input-group input {
+    height: 1.6em;
+    background-color: rgb(241, 239, 239);
+    border-radius: 0;
+}
+
+footer .container-fluid .row .col .input-group input::placeholder {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer .container-fluid .row .col .input-group button {
+    height: 1.6em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+footer .container-fluid .row .col small {
+    font-size: 0.7em;
+    color: grey;
+}
+
+footer .container-fluid .row .col small a {
+    font-size: 0.9em;
+    color: blue;
+    text-decoration: underline;
+}
+
+footer .bottom-footer {
+    height: 4em;
+    text-align: center;/* this tag is related to the footer part*/
+}
+
+footer .bottom-footer .row .col .card-holder img {
+    width: auto;
+    height: 1.5em;
+    margin-right: 1em;
+
+}
+
+footer .bottom-footer .row .col .social-holder img {
+    width: auto;
+    height: 1.5em;
+    text-align: center;
+    margin-right: 1em;
+}
+
+
+@media screen and (max-width:1200px) {
+    footer .container-fluid .row .col .input-group input::placeholder {
+        font-size: 0.8em;
+        text-align: left;
+    }
+
+    footer .container-fluid .row .col .input-group button {
+        height: 2em;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 0;
+        font-size: 0.8em;
+    }
+
+    footer .container-fluid .row .col small {
+        font-size: 0.7em;
+    }
+
+    footer .container-fluid .row .col small a {
+        font-size: 1em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.9em;
+        text-decoration: none;
+        color: gray;
+        line-height: 2.5em;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    footer .bottom-footer .row .col h3 {
+        font-size: 0.8em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.7em;
+        text-decoration: none;
+        color: gray;
+        line-height: 2.5em;
+    }
+
+    footer .bottom-footer .row .col .card-holder img {
+        width: auto;
+        height: 1.2em;
+        margin-right: 0.5em;
+    }
+
+    footer .bottom-footer .row .col .social-holder img {
+        width: auto;
+        height: 1.2em;
+        margin-right: 0.5em;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    footer .container-fluid .row .col h3 {
+        font-size: 0.8em;
+    }
+
+    footer .bottom-footer .row .col h3 {
+        font-size: 0.8em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.7em;
+        text-decoration: none;
+        color: gray;
+        line-height: 2.5em;
+    }
+
+    footer .bottom-footer .row .col .card-holder img {
+        margin-right: 0.3em;
+    }
+
+    footer .bottom-footer .row .col .social-holder img {
+        margin-right: 0.3em;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    footer .container-fluid .row .col h3 {
+        font-size: 0.8em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.7em;
+        text-decoration: none;
+        color: gray;
+        line-height: 2.5em;
+    }
+
+    footer .container-fluid .row .col small {
+        font-size: 0.6em;
+        color: grey;
+    }
+
+    footer .bottom-footer .row .col h3 {
+        font-size: 0.6em;
+    }
+
+    footer .bottom-footer .row .col .card-holder img {
+        width: auto;
+        height: 1em;
+        margin-right: 0.1em;
+    }
+
+    footer .bottom-footer .row .col .social-holder img {
+        width: auto;
+        height: 1em;
+        margin-right: 0.1em;
+    }
+}
+
+@media screen and (min-width:460px) and (max-width:575px) {
+    footer .container-fluid .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 75vw;
+    }
+
+    footer .container-fluid .row .col:first-child {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    footer .container-fluid .row .col:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    footer .container-fluid .row .col:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 1em;
+    }
+
+    footer .container-fluid .row .col:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: 1em;
+    }
+
+    footer .container-fluid .row .col:nth-child(5) {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        margin-top: 2em;
+    }
+
+    footer .container-fluid .row .col h3 {
+        font-size: 0.7em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.7em;
+    }
+
+    footer .container-fluid .row .col small a {
+        font-size: 1em;
+    }
+
+    footer .bottom-footer .row .col:first-child {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    footer .bottom-footer .row .col:nth-child(2) {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    footer .bottom-footer .row .col .card-holder img {
+        width: auto;
+        height: 0.8em;
+        margin-right: 0.1em;
+    }
+
+    footer .bottom-footer .row .col .social-holder img {
+        width: auto;
+        height: 0.8em;
+        margin-right: 0.1em;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:459px) {
+    footer .container-fluid .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 75vw;
+    }
+
+    footer .container-fluid .row .col:first-child {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    footer .container-fluid .row .col:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    footer .container-fluid .row .col:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 1em;
+    }
+
+    footer .container-fluid .row .col:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: 1em;
+    }
+
+    footer .container-fluid .row .col:nth-child(5) {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        margin-top: 2em;
+    }
+
+    footer .container-fluid .row .col h3 {
+        font-size: 0.8em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.7em;
+        line-height: 2.5em;
+    }
+
+    footer .container-fluid .row .col small a {
+        font-size: 1em;
+    }
+
+    footer .bottom-footer .row .col:first-child {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    footer .bottom-footer .row .col:nth-child(2) {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    footer .bottom-footer .row .col .card-holder img {
+        width: auto;
+        height: 0.8em;
+        margin-right: 0.1em;
+    }
+
+    footer .bottom-footer .row .col .social-holder img {
+        width: auto;
+        height: 0.8em;
+        margin-right: 0.1em;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    footer .container-fluid .row .col h3 {
+        font-size: 0.7em;
+    }
+
+    footer .container-fluid .row .col a {
+        font-size: 0.7em;
+    }
+
+    footer .container-fluid .row .col:nth-child(3) {
+        margin-top: 0.5em;
+    }
+
+    footer .container-fluid .row .col:nth-child(4) {
+        margin-top: 0.5em;
+    }
+
+    footer .container-fluid .row .col:nth-child(5) {
+        margin-top: 2em;
+    }
+
+    footer .container-fluid .row .col small {
+        font-size: 0.6em;
+    }
+
+    footer .bottom-footer .row .col .card-holder img {
+        width: auto;
+        height: 0.6em;
+        margin-right: 0.1em;
+    }
+
+    footer .bottom-footer .row .col .social-holder img {
+        width: auto;
+        height: 0.6em;
+        margin-right: 0.1em;
+    }
+}
