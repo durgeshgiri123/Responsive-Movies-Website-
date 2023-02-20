@@ -385,7 +385,7 @@ next-page{
  position: absolute;
  top: 50px;
  left: 100px;
- z-index: -1;
+ z-index: 1;
 }
 .video-container.show-video{
     display: flex;
